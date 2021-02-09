@@ -33,8 +33,12 @@ Primary use:
 /*---------------------------------------------*/
 .container {max-width: 1200px;}
 
-a, a:hover, a:focus, a:visited {color: #fff;}
-
+.domains a, a:hover, a:focus, a:visited {
+  color: #fff;
+}
+.domains a:hover {
+text-decoration: underline;
+}
 /*//////////////////////////////////////////////////////////////////
 [ Form ]*/
 
